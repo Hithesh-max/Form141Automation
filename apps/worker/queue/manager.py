@@ -1,5 +1,6 @@
 import logging
 import os
+import time
 from typing import Optional
 
 import redis
@@ -100,6 +101,7 @@ class WorkerQueueManager:
             logger.error(
                 f"Redis error claiming job: {e}"
             )
+            time.sleep(2)
 
         return None
 

@@ -5,6 +5,21 @@ echo "=================================================="
 echo "  Form 141 Automation Platform - Render Startup"
 echo "=================================================="
 
+# 0. Start local Redis if no external REDIS_URL provided or if pointing to localhost
+export REDIS_URL="${REDIS_URL:-redis://127.0.0.1:6379/0}"
+if [[ "$REDIS_URL" == *"127.0.0.1"* ]] || [[ "$REDIS_URL" == *"localhost"* ]]; then
+    echo "Starting local Redis server inside container..."
+    mkdir -p /tmp/redis
+    redis-server --daemonize yes --protected-mode no --logfile /tmp/redis/redis.log --dir /tmp/redis || true
+    sleep 1
+    if redis-cli ping > /dev/null 2>&1; then
+        echo "Local Redis started successfully."
+    else
+        echo "Local Redis startup check:"
+        cat /tmp/redis/redis.log || true
+    fi
+fi
+
 # 1. Start Xvfb virtual display
 export DISPLAY="${DISPLAY:-:99}"
 if ! pgrep -x "Xvfb" > /dev/null; then
@@ -23,7 +38,8 @@ if ! pgrep -x "x11vnc" > /dev/null; then
 fi
 
 # 3. Auto-run database migrations if Postgres or SQLite is configured
-echo "Applying database schema..."
+export DATABASE_URL="${DATABASE_URL:-sqlite:///./form141.db}"
+echo "Applying database schema with DATABASE_URL=$DATABASE_URL..."
 python -c "
 from apps.backend.app.database.config import init_db
 init_db()

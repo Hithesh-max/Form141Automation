@@ -1,13 +1,12 @@
-# Render Blueprint Specification for Form 141 Automation Platform
+# Render Blueprint - Free Plan Compatible
 # https://render.com/docs/blueprint-spec
 
 services:
-  # 1. Main Unified Web Service (Backend + UI + Worker)
   - type: web
     name: form141-platform
     runtime: docker
     dockerfilePath: ./Dockerfile
-    plan: starter # Starter plan recommended for Playwright Chromium memory requirements
+    plan: free
     region: oregon
     envVars:
       - key: ENV
@@ -17,28 +16,8 @@ services:
       - key: SECRET_KEY
         generateValue: true
       - key: ENCRYPTION_MASTER_KEY
-        generateValue: true
+        value: Nt2FDh26fcarOyx4pF48qLbNafloz4fmG2TeAZJCsxU=
       - key: DATABASE_URL
-        fromDatabase:
-          name: form141-db
-          property: connectionString
+        value: sqlite:///./form141.db
       - key: REDIS_URL
-        fromService:
-          type: redis
-          name: form141-redis
-          property: connectionString
-
-  # 2. Redis Key-Value Store for Queuing & Pub/Sub
-  - type: redis
-    name: form141-redis
-    region: oregon
-    plan: starter
-    ipAllowList: []
-
-databases:
-  # 3. Managed PostgreSQL Database
-  - name: form141-db
-    region: oregon
-    plan: starter
-    databaseName: form141
-    user: admin
+        value: redis://127.0.0.1:6379/0

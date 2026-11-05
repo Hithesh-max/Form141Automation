@@ -47,10 +47,27 @@ export const getStoredUser = (): AuthUser | null => {
 };
 
 export const getApiBase = (): string => {
+  const envBase = (import.meta as any).env?.VITE_API_BASE;
+  if (envBase) return envBase;
+  if (typeof window !== 'undefined') {
+    // In production on Render (or any port other than local dev 5173),
+    // use current origin so requests hit the hosted Render backend directly!
+    if (window.location.port !== '5173') {
+      return window.location.origin;
+    }
+  }
   return 'http://localhost:8001';
 };
 
 export const getWsUrl = (): string => {
+  const envWs = (import.meta as any).env?.VITE_WS_URL;
+  if (envWs) return envWs;
+  if (typeof window !== 'undefined') {
+    if (window.location.port !== '5173') {
+      const proto = window.location.protocol === 'https:' ? 'wss:' : 'ws:';
+      return `${proto}//${window.location.host}/api/ws`;
+    }
+  }
   return 'ws://localhost:8001/api/ws';
 };
 

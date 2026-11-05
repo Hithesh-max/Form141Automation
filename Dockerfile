@@ -12,8 +12,10 @@ FROM python:3.11-slim
 
 WORKDIR /app
 
-# Install system libraries for Chromium, Playwright, Xvfb
+# Install system libraries for Chromium, Playwright, Xvfb, and local Redis
 RUN apt-get update && apt-get install -y --no-install-recommends \
+    redis-server \
+    redis-tools \
     xvfb \
     x11vnc \
     procps \
