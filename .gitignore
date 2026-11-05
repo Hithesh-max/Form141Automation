@@ -1,0 +1,46 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# Databases and storage
+*.db
+*.sqlite
+*.sqlite3
+form141.db
+form141.db-journal
+postgres_data/
+redis_data/
+
+# Python virtual environment and caches
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Playwright and browser artifacts
+.playwright/
+playwright-report/
+test-results/
+*.png
+*.jpg
+*.jpeg
+*.log
+
+# Frontend build and dependencies
+apps/desktop/node_modules/
+apps/desktop/dist/
+apps/desktop/.vite/
+
+# OS and IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

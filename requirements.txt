@@ -1,0 +1,17 @@
+fastapi
+uvicorn
+sqlalchemy
+alembic
+psycopg[binary]
+pydantic
+pydantic-settings
+redis
+playwright
+websockets
+python-dotenv
+
+python-multipart
+pandas
+openpyxl
+
+cryptography

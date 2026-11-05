@@ -1,0 +1,1074 @@
+[
+  {
+    "tag": "BUTTON",
+    "type": "submit",
+    "id": "hamburgerOpen",
+    "placeholder": null,
+    "formControlName": null,
+    "text": "menu"
+  },
+  {
+    "tag": "INPUT",
+    "type": "image",
+    "id": "",
+    "placeholder": "",
+    "formControlName": null,
+    "text": ""
+  },
+  {
+    "tag": "BUTTON",
+    "type": "submit",
+    "id": "",
+    "placeholder": null,
+    "formControlName": null,
+    "text": "call Call Us expand_more"
+  },
+  {
+    "tag": "MAT-SELECT",
+    "type": null,
+    "id": "langMatSelect",
+    "placeholder": null,
+    "formControlName": null,
+    "text": "English"
+  },
+  {
+    "tag": "BUTTON",
+    "type": "submit",
+    "id": "",
+    "placeholder": null,
+    "formControlName": null,
+    "text": "SOUMYA MEHTAexpand_more Individual"
+  },
+  {
+    "tag": "BUTTON",
+    "type": "button",
+    "id": "mat-mdc-slide-toggle-1-button",
+    "placeholder": null,
+    "formControlName": null,
+    "text": ""
+  },
+  {
+    "tag": "INPUT",
+    "type": "hidden",
+    "id": "data",
+    "placeholder": "",
+    "formControlName": null,
+    "text": ""
+  },
+  {
+    "tag": "INPUT",
+    "type": "hidden",
+    "id": "signature",
+    "placeholder": "",
+    "formControlName": null,
+    "text": ""
+  },
+  {
+    "tag": "BUTTON",
+    "type": "submit",
+    "id": "submitForm",
+    "placeholder": null,
+    "formControlName": null,
+    "text": "Submit"
+  },
+  {
+    "tag": "INPUT",
+    "type": "hidden",
+    "id": "signAnnualInfoStatement",
+    "placeholder": "",
+    "formControlName": null,
+    "text": ""
+  },
+  {
+    "tag": "INPUT",
+    "type": "hidden",
+    "id": "encryptkeyAnnualInfoStatement",
+    "placeholder": "",
+    "formControlName": null,
+    "text": ""
+  },
+  {
+    "tag": "INPUT",
+    "type": "hidden",
+    "id": "encryptDataAnnualInfoStatement",
+    "placeholder": "",
+    "formControlName": null,
+    "text": ""
+  },
+  {
+    "tag": "BUTTON",
+    "type": "submit",
+    "id": "submitFormCompliancePortalAnnualInfoStatement",
+    "placeholder": null,
+    "formControlName": null,
+    "text": "submit data"
+  },
+  {
+    "tag": "INPUT",
+    "type": "hidden",
+    "id": "signECampaignNew",
+    "placeholder": "",
+    "formControlName": null,
+    "text": ""
+  },
+  {
+    "tag": "INPUT",
+    "type": "hidden",
+    "id": "encryptkeyECampaignNew",
+    "placeholder": "",
+    "formControlName": null,
+    "text": ""
+  },
+  {
+    "tag": "INPUT",
+    "type": "hidden",
+    "id": "encryptDataECampaignNew",
+    "placeholder": "",
+    "formControlName": null,
+    "text": ""
+  },
+  {
+    "tag": "BUTTON",
+    "type": "submit",
+    "id": "submitFormCompliancePortalECampaignNew",
+    "placeholder": null,
+    "formControlName": null,
+    "text": "Submit"
+  },
+  {
+    "tag": "INPUT",
+    "type": "hidden",
+    "id": "signReportingPortal",
+    "placeholder": "",
+    "formControlName": null,
+    "text": ""
+  },
+  {
+    "tag": "INPUT",
+    "type": "hidden",
+    "id": "encryptkeyReportingPortal",
+    "placeholder": "",
+    "formControlName": null,
+    "text": ""
+  },
+  {
+    "tag": "INPUT",
+    "type": "hidden",
+    "id": "encryptDataReportingPortal",
+    "placeholder": "",
+    "formControlName": null,
+    "text": ""
+  },
+  {
+    "tag": "BUTTON",
+    "type": "submit",
+    "id": "submitFormReportingPortal",
+    "placeholder": null,
+    "formControlName": null,
+    "text": "Submit"
+  },
+  {
+    "tag": "BUTTON",
+    "type": "button",
+    "id": "closeModalNav1",
+    "placeholder": null,
+    "formControlName": null,
+    "text": "\ufffd"
+  },
+  {
+    "tag": "BUTTON",
+    "type": "button",
+    "id": "",
+    "placeholder": null,
+    "formControlName": null,
+    "text": "Cancel"
+  },
+  {
+    "tag": "BUTTON",
+    "type": "button",
+    "id": "okBtnNav1",
+    "placeholder": null,
+    "formControlName": null,
+    "text": "Confirm"
+  },
+  {
+    "tag": "BUTTON",
+    "type": "button",
+    "id": "closeModalNav2",
+    "placeholder": null,
+    "formControlName": null,
+    "text": "\ufffd"
+  },
+  {
+    "tag": "BUTTON",
+    "type": "button",
+    "id": "",
+    "placeholder": null,
+    "formControlName": null,
+    "text": "Log Out"
+  },
+  {
+    "tag": "BUTTON",
+    "type": "button",
+    "id": "okBtnNav2",
+    "placeholder": null,
+    "formControlName": null,
+    "text": "Continue Session"
+  },
+  {
+    "tag": "BUTTON",
+    "type": "button",
+    "id": "closeModalNav3",
+    "placeholder": null,
+    "formControlName": null,
+    "text": "\ufffd"
+  },
+  {
+    "tag": "BUTTON",
+    "type": "button",
+    "id": "",
+    "placeholder": null,
+    "formControlName": null,
+    "text": "Cancel"
+  },
+  {
+    "tag": "BUTTON",
+    "type": "button",
+    "id": "okBtnNav3",
+    "placeholder": null,
+    "formControlName": null,
+    "text": "Proceed "
+  },
+  {
+    "tag": "BUTTON",
+    "type": "button",
+    "id": "closeIcon",
+    "placeholder": null,
+    "formControlName": null,
+    "text": "\ufffd"
+  },
+  {
+    "tag": "BUTTON",
+    "type": "button",
+    "id": "",
+    "placeholder": null,
+    "formControlName": null,
+    "text": "Cancel"
+  },
+  {
+    "tag": "BUTTON",
+    "type": "button",
+    "id": "proceedBtn",
+    "placeholder": null,
+    "formControlName": null,
+    "text": "Proceed "
+  },
+  {
+    "tag": "BUTTON",
+    "type": "button",
+    "id": "closeModalNav4",
+    "placeholder": null,
+    "formControlName": null,
+    "text": "\ufffd"
+  },
+  {
+    "tag": "BUTTON",
+    "type": "button",
+    "id": "",
+    "placeholder": null,
+    "formControlName": null,
+    "text": "Cancel"
+  },
+  {
+    "tag": "BUTTON",
+    "type": "button",
+    "id": "okBtnNav4",
+    "placeholder": null,
+    "formControlName": null,
+    "text": "Proceed "
+  },
+  {
+    "tag": "BUTTON",
+    "type": "button",
+    "id": "closeModalNav5",
+    "placeholder": null,
+    "formControlName": null,
+    "text": "\ufffd"
+  },
+  {
+    "tag": "BUTTON",
+    "type": "button",
+    "id": "",
+    "placeholder": null,
+    "formControlName": null,
+    "text": "Cancel"
+  },
+  {
+    "tag": "BUTTON",
+    "type": "button",
+    "id": "okBtnNav5",
+    "placeholder": null,
+    "formControlName": null,
+    "text": "Proceed "
+  },
+  {
+    "tag": "BUTTON",
+    "type": "button",
+    "id": "",
+    "placeholder": null,
+    "formControlName": null,
+    "text": " OK "
+  },
+  {
+    "tag": "BUTTON",
+    "type": "button",
+    "id": "",
+    "placeholder": null,
+    "formControlName": null,
+    "text": " Respond to Demand(s) "
+  },
+  {
+    "tag": "BUTTON",
+    "type": "button",
+    "id": "",
+    "placeholder": null,
+    "formControlName": null,
+    "text": " Close "
+  },
+  {
+    "tag": "BUTTON",
+    "type": "button",
+    "id": "",
+    "placeholder": null,
+    "formControlName": null,
+    "text": " Close "
+  },
+  {
+    "tag": "BUTTON",
+    "type": "button",
+    "id": "",
+    "placeholder": null,
+    "formControlName": null,
+    "text": "\ufffd"
+  },
+  {
+    "tag": "BUTTON",
+    "type": "button",
+    "id": "",
+    "placeholder": null,
+    "formControlName": null,
+    "text": " Continue "
+  },
+  {
+    "tag": "MAT-RADIO-GROUP",
+    "type": null,
+    "id": "",
+    "placeholder": null,
+    "formControlName": "residentialStatus",
+    "text": "Resident Non Resident"
+  },
+  {
+    "tag": "INPUT",
+    "type": "radio",
+    "id": "mat-radio-4-input",
+    "placeholder": "",
+    "formControlName": null,
+    "text": ""
+  },
+  {
+    "tag": "INPUT",
+    "type": "radio",
+    "id": "mat-radio-5-input",
+    "placeholder": "",
+    "formControlName": null,
+    "text": ""
+  },
+  {
+    "tag": "MAT-SELECT",
+    "type": null,
+    "id": "mat-select-7",
+    "placeholder": null,
+    "formControlName": "taxYear",
+    "text": "2026-27"
+  },
+  {
+    "tag": "INPUT",
+    "type": "text",
+    "id": "mat-input-4",
+    "placeholder": "Select Month",
+    "formControlName": "monthOfDeduction",
+    "text": ""
+  },
+  {
+    "tag": "BUTTON",
+    "type": "button",
+    "id": "",
+    "placeholder": null,
+    "formControlName": null,
+    "text": ""
+  },
+  {
+    "tag": "MAT-SELECT",
+    "type": null,
+    "id": "mat-select-8",
+    "placeholder": null,
+    "formControlName": "natureTransaction",
+    "text": "Schedule A: TDS on Rent paid by Individu"
+  },
+  {
+    "tag": "BUTTON",
+    "type": "submit",
+    "id": "",
+    "placeholder": null,
+    "formControlName": null,
+    "text": "Back"
+  },
+  {
+    "tag": "BUTTON",
+    "type": "submit",
+    "id": "",
+    "placeholder": null,
+    "formControlName": null,
+    "text": "Save As Draft"
+  },
+  {
+    "tag": "BUTTON",
+    "type": "submit",
+    "id": "",
+    "placeholder": null,
+    "formControlName": null,
+    "text": "Continue"
+  },
+  {
+    "tag": "BUTTON",
+    "type": "submit",
+    "id": "",
+    "placeholder": null,
+    "formControlName": null,
+    "text": "Continue"
+  },
+  {
+    "tag": "BUTTON",
+    "type": "submit",
+    "id": "",
+    "placeholder": null,
+    "formControlName": null,
+    "text": "Save as Draft"
+  },
+  {
+    "tag": "BUTTON",
+    "type": "submit",
+    "id": "",
+    "placeholder": null,
+    "formControlName": null,
+    "text": " Back "
+  },
+  {
+    "tag": "BUTTON",
+    "type": "button",
+    "id": "",
+    "placeholder": null,
+    "formControlName": null,
+    "text": "\ufffd"
+  },
+  {
+    "tag": "INPUT",
+    "type": "radio",
+    "id": "editCorporateDeductee",
+    "placeholder": "",
+    "formControlName": null,
+    "text": ""
+  },
+  {
+    "tag": "INPUT",
+    "type": "radio",
+    "id": "editNonCorporateDeductee",
+    "placeholder": "",
+    "formControlName": null,
+    "text": ""
+  },
+  {
+    "tag": "BUTTON",
+    "type": "button",
+    "id": "",
+    "placeholder": null,
+    "formControlName": null,
+    "text": " Continue "
+  },
+  {
+    "tag": "MAT-RADIO-GROUP",
+    "type": null,
+    "id": "",
+    "placeholder": null,
+    "formControlName": "propertyType",
+    "text": "LandBuildingLand and building both"
+  },
+  {
+    "tag": "INPUT",
+    "type": "radio",
+    "id": "mat-radio-8-input",
+    "placeholder": "",
+    "formControlName": null,
+    "text": ""
+  },
+  {
+    "tag": "INPUT",
+    "type": "radio",
+    "id": "mat-radio-9-input",
+    "placeholder": "",
+    "formControlName": null,
+    "text": ""
+  },
+  {
+    "tag": "INPUT",
+    "type": "radio",
+    "id": "mat-radio-10-input",
+    "placeholder": "",
+    "formControlName": null,
+    "text": ""
+  },
+  {
+    "tag": "INPUT",
+    "type": "text",
+    "id": "",
+    "placeholder": "",
+    "formControlName": "country",
+    "text": ""
+  },
+  {
+    "tag": "INPUT",
+    "type": "text",
+    "id": "",
+    "placeholder": "Enter Flat/Building",
+    "formControlName": "flatBuilding",
+    "text": ""
+  },
+  {
+    "tag": "INPUT",
+    "type": "text",
+    "id": "",
+    "placeholder": "Enter Road/Street",
+    "formControlName": "roadStreet",
+    "text": ""
+  },
+  {
+    "tag": "INPUT",
+    "type": "text",
+    "id": "",
+    "placeholder": "Enter PIN Code",
+    "formControlName": "pincode",
+    "text": ""
+  },
+  {
+    "tag": "MAT-SELECT",
+    "type": null,
+    "id": "mat-select-9",
+    "placeholder": null,
+    "formControlName": "postOffice",
+    "text": "Select Post Office"
+  },
+  {
+    "tag": "MAT-SELECT",
+    "type": null,
+    "id": "mat-select-10",
+    "placeholder": null,
+    "formControlName": "area",
+    "text": "Select Area/Locality"
+  },
+  {
+    "tag": "MAT-SELECT",
+    "type": null,
+    "id": "mat-select-11",
+    "placeholder": null,
+    "formControlName": "district",
+    "text": "Select District"
+  },
+  {
+    "tag": "INPUT",
+    "type": "text",
+    "id": "",
+    "placeholder": "Enter State",
+    "formControlName": "state",
+    "text": ""
+  },
+  {
+    "tag": "BUTTON",
+    "type": "button",
+    "id": "",
+    "placeholder": null,
+    "formControlName": null,
+    "text": "add Add Details "
+  },
+  {
+    "tag": "BUTTON",
+    "type": "button",
+    "id": "",
+    "placeholder": null,
+    "formControlName": null,
+    "text": "edit Edit "
+  },
+  {
+    "tag": "BUTTON",
+    "type": "button",
+    "id": "",
+    "placeholder": null,
+    "formControlName": null,
+    "text": "delete Delete "
+  },
+  {
+    "tag": "INPUT",
+    "type": "checkbox",
+    "id": "",
+    "placeholder": "",
+    "formControlName": null,
+    "text": ""
+  },
+  {
+    "tag": "INPUT",
+    "type": "checkbox",
+    "id": "",
+    "placeholder": "",
+    "formControlName": null,
+    "text": ""
+  },
+  {
+    "tag": "BUTTON",
+    "type": "button",
+    "id": "",
+    "placeholder": null,
+    "formControlName": null,
+    "text": "add Add Details "
+  },
+  {
+    "tag": "INPUT",
+    "type": "number",
+    "id": "",
+    "placeholder": "Enter number of months",
+    "formControlName": "periodOfTenancy",
+    "text": ""
+  },
+  {
+    "tag": "MAT-RADIO-GROUP",
+    "type": null,
+    "id": "",
+    "placeholder": null,
+    "formControlName": "incomeTaxDeductedReason",
+    "text": "End of the tax YearEnd of the tenancy"
+  },
+  {
+    "tag": "INPUT",
+    "type": "radio",
+    "id": "mat-radio-6-input",
+    "placeholder": "",
+    "formControlName": null,
+    "text": ""
+  },
+  {
+    "tag": "INPUT",
+    "type": "radio",
+    "id": "mat-radio-7-input",
+    "placeholder": "",
+    "formControlName": null,
+    "text": ""
+  },
+  {
+    "tag": "INPUT",
+    "type": "text",
+    "id": "totalRentValue",
+    "placeholder": "",
+    "formControlName": "totalRentValue",
+    "text": ""
+  },
+  {
+    "tag": "INPUT",
+    "type": "text",
+    "id": "mat-input-6",
+    "placeholder": "",
+    "formControlName": "amountPaidCurrently",
+    "text": ""
+  },
+  {
+    "tag": "BUTTON",
+    "type": "button",
+    "id": "",
+    "placeholder": null,
+    "formControlName": null,
+    "text": "add Add Details "
+  },
+  {
+    "tag": "INPUT",
+    "type": "text",
+    "id": "amountTds",
+    "placeholder": "",
+    "formControlName": "amountTds",
+    "text": ""
+  },
+  {
+    "tag": "INPUT",
+    "type": "text",
+    "id": "amountDeducted",
+    "placeholder": "",
+    "formControlName": "amountDeducted",
+    "text": ""
+  },
+  {
+    "tag": "INPUT",
+    "type": "text",
+    "id": "interest",
+    "placeholder": "",
+    "formControlName": "interest",
+    "text": ""
+  },
+  {
+    "tag": "INPUT",
+    "type": "text",
+    "id": "fee",
+    "placeholder": "",
+    "formControlName": "fee",
+    "text": ""
+  },
+  {
+    "tag": "BUTTON",
+    "type": "submit",
+    "id": "",
+    "placeholder": null,
+    "formControlName": null,
+    "text": " Back "
+  },
+  {
+    "tag": "BUTTON",
+    "type": "submit",
+    "id": "",
+    "placeholder": null,
+    "formControlName": null,
+    "text": "Save as Draft"
+  },
+  {
+    "tag": "BUTTON",
+    "type": "submit",
+    "id": "",
+    "placeholder": null,
+    "formControlName": null,
+    "text": "Continue"
+  },
+  {
+    "tag": "BUTTON",
+    "type": "submit",
+    "id": "",
+    "placeholder": null,
+    "formControlName": null,
+    "text": "Continue"
+  },
+  {
+    "tag": "BUTTON",
+    "type": "submit",
+    "id": "",
+    "placeholder": null,
+    "formControlName": null,
+    "text": "Save as Draft"
+  },
+  {
+    "tag": "BUTTON",
+    "type": "submit",
+    "id": "",
+    "placeholder": null,
+    "formControlName": null,
+    "text": " Back "
+  },
+  {
+    "tag": "BUTTON",
+    "type": "submit",
+    "id": "openScheduleDKindTaxDepositModalBtn",
+    "placeholder": null,
+    "formControlName": null,
+    "text": " Open Tax Deposit Modal "
+  },
+  {
+    "tag": "BUTTON",
+    "type": "button",
+    "id": "",
+    "placeholder": null,
+    "formControlName": null,
+    "text": "\ufffd"
+  },
+  {
+    "tag": "BUTTON",
+    "type": "button",
+    "id": "closeScheduleDKindTaxDepositModalBtn",
+    "placeholder": null,
+    "formControlName": null,
+    "text": "Close"
+  },
+  {
+    "tag": "BUTTON",
+    "type": "submit",
+    "id": "openAlertModalBtn",
+    "placeholder": null,
+    "formControlName": null,
+    "text": " Open Alert Modal "
+  },
+  {
+    "tag": "BUTTON",
+    "type": "button",
+    "id": "",
+    "placeholder": null,
+    "formControlName": null,
+    "text": "\ufffd"
+  },
+  {
+    "tag": "BUTTON",
+    "type": "button",
+    "id": "closeAlertModalBtn",
+    "placeholder": null,
+    "formControlName": null,
+    "text": "OK"
+  },
+  {
+    "tag": "INPUT",
+    "type": "radio",
+    "id": "mat-radio-15-input",
+    "placeholder": "",
+    "formControlName": null,
+    "text": ""
+  },
+  {
+    "tag": "INPUT",
+    "type": "radio",
+    "id": "mat-radio-16-input",
+    "placeholder": "",
+    "formControlName": null,
+    "text": ""
+  },
+  {
+    "tag": "INPUT",
+    "type": "radio",
+    "id": "mat-radio-17-input",
+    "placeholder": "",
+    "formControlName": null,
+    "text": ""
+  },
+  {
+    "tag": "INPUT",
+    "type": "radio",
+    "id": "mat-radio-18-input",
+    "placeholder": "",
+    "formControlName": null,
+    "text": ""
+  },
+  {
+    "tag": "INPUT",
+    "type": "radio",
+    "id": "mat-radio-19-input",
+    "placeholder": "",
+    "formControlName": null,
+    "text": ""
+  },
+  {
+    "tag": "INPUT",
+    "type": "radio",
+    "id": "mat-radio-20-input",
+    "placeholder": "",
+    "formControlName": null,
+    "text": ""
+  },
+  {
+    "tag": "INPUT",
+    "type": "radio",
+    "id": "mat-radio-21-input",
+    "placeholder": "",
+    "formControlName": null,
+    "text": ""
+  },
+  {
+    "tag": "INPUT",
+    "type": "radio",
+    "id": "mat-radio-22-input",
+    "placeholder": "",
+    "formControlName": null,
+    "text": ""
+  },
+  {
+    "tag": "INPUT",
+    "type": "radio",
+    "id": "bankOther-input",
+    "placeholder": "",
+    "formControlName": null,
+    "text": ""
+  },
+  {
+    "tag": "BUTTON",
+    "type": "button",
+    "id": "",
+    "placeholder": null,
+    "formControlName": null,
+    "text": " Back "
+  },
+  {
+    "tag": "BUTTON",
+    "type": "button",
+    "id": "",
+    "placeholder": null,
+    "formControlName": null,
+    "text": " Save as Draft "
+  },
+  {
+    "tag": "BUTTON",
+    "type": "button",
+    "id": "",
+    "placeholder": null,
+    "formControlName": null,
+    "text": " Continue "
+  },
+  {
+    "tag": "BUTTON",
+    "type": "button",
+    "id": "",
+    "placeholder": null,
+    "formControlName": null,
+    "text": " Continue "
+  },
+  {
+    "tag": "BUTTON",
+    "type": "button",
+    "id": "",
+    "placeholder": null,
+    "formControlName": null,
+    "text": " Save as Draft "
+  },
+  {
+    "tag": "BUTTON",
+    "type": "button",
+    "id": "",
+    "placeholder": null,
+    "formControlName": null,
+    "text": " Back "
+  },
+  {
+    "tag": "BUTTON",
+    "type": "submit",
+    "id": "openPGCharges",
+    "placeholder": null,
+    "formControlName": null,
+    "text": " Open Modal "
+  },
+  {
+    "tag": "BUTTON",
+    "type": "button",
+    "id": "closeModalPaymentScreen",
+    "placeholder": null,
+    "formControlName": null,
+    "text": "\ufffd"
+  },
+  {
+    "tag": "BUTTON",
+    "type": "button",
+    "id": "nonResidentPopUpButton",
+    "placeholder": null,
+    "formControlName": null,
+    "text": " Non-Resident Pop up "
+  },
+  {
+    "tag": "BUTTON",
+    "type": "button",
+    "id": "",
+    "placeholder": null,
+    "formControlName": null,
+    "text": "close"
+  },
+  {
+    "tag": "BUTTON",
+    "type": "button",
+    "id": "",
+    "placeholder": null,
+    "formControlName": null,
+    "text": "Close"
+  },
+  {
+    "tag": "BUTTON",
+    "type": "button",
+    "id": "closeDisclaimerModalFooter1",
+    "placeholder": null,
+    "formControlName": null,
+    "text": "\ufffd"
+  },
+  {
+    "tag": "BUTTON",
+    "type": "button",
+    "id": "",
+    "placeholder": null,
+    "formControlName": null,
+    "text": "Cancel"
+  },
+  {
+    "tag": "BUTTON",
+    "type": "button",
+    "id": "okBtnFooter1",
+    "placeholder": null,
+    "formControlName": null,
+    "text": "Confirm"
+  },
+  {
+    "tag": "BUTTON",
+    "type": "button",
+    "id": "close-modal-session",
+    "placeholder": null,
+    "formControlName": null,
+    "text": "\ufffd"
+  },
+  {
+    "tag": "BUTTON",
+    "type": "submit",
+    "id": "btn-start-session",
+    "placeholder": null,
+    "formControlName": null,
+    "text": "Agree"
+  },
+  {
+    "tag": "BUTTON",
+    "type": "submit",
+    "id": "btn-cancel-session",
+    "placeholder": null,
+    "formControlName": null,
+    "text": "Cancel"
+  },
+  {
+    "tag": "BUTTON",
+    "type": "button",
+    "id": "efNotificationPopUpHeader_cancel",
+    "placeholder": null,
+    "formControlName": null,
+    "text": "\ufffd"
+  },
+  {
+    "tag": "BUTTON",
+    "type": "submit",
+    "id": "efNotificationPopUp_continue",
+    "placeholder": null,
+    "formControlName": null,
+    "text": " Continue "
+  },
+  {
+    "tag": "BUTTON",
+    "type": "button",
+    "id": "securityReasonPopupButton",
+    "placeholder": null,
+    "formControlName": null,
+    "text": " Launch demo modal "
+  },
+  {
+    "tag": "BUTTON",
+    "type": "button",
+    "id": "",
+    "placeholder": null,
+    "formControlName": null,
+    "text": " YES "
+  },
+  {
+    "tag": "BUTTON",
+    "type": "button",
+    "id": "",
+    "placeholder": null,
+    "formControlName": null,
+    "text": " No "
+  }
+]
